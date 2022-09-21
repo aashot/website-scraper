@@ -1,5 +1,5 @@
 const browserObject = require('../../../config/browser');
-const pageScraper = require('../../../pageScraper');
+const pageScraper = require('../../../services/pageScraper');
 
 
 exports.scrap = async (req, res) => {
