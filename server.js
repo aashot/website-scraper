@@ -11,7 +11,7 @@ app.use(bodyParser.json({ extended: true }))
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(cors());
 
-//define routes
+// define routes
 app.use('/api/v1', pageRoutes);
 
 const PORT = process.env.PORT|| 4000;

@@ -10,11 +10,8 @@ const scraperObject = async ({
   async function scrapeCurrentPage(){
     await page.waitForSelector(waitForSelector);
 
-    const result = await page.$eval(scrapSelector, (content) => {
-      return content.outerHTML;
-    })
-
-    console.dir('result', result);
+    const result = await page.$eval(scrapSelector, (content) => content.outerHTML)
+    
     return result;
   }
 

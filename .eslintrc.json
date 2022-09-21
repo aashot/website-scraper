@@ -1,0 +1,28 @@
+{
+    "env": {
+        "node": true,
+        "commonjs": true,
+        "es2021": true
+    },
+    "extends": ["airbnb-base", "prettier", "plugin:node/recommended"],
+    "overrides": [
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "indent": ["error", 2],
+        "no-multiple-empty-lines": "error",
+        "no-mixed-spaces-and-tabs": "off",
+        "no-unused-vars": "warn",
+        "consistent-return": "off",
+        "max-len": "off",
+        "no-param-reassign": "off",
+        "import/no-cycle": "off",
+        "no-loop-func": "warn",
+        "no-plusplus": "off",
+        "no-process-exit": "off",
+        "no-console": "off",
+        "linebreak-style": "off"
+    }
+}
