@@ -1,7 +1,7 @@
-const browserObject = require('../../../config/browser');
-const pageScraper = require('../../../services/pageScraper');
+const browserObject = require('../../../../config/browser');
+const pageScraper = require('../../../../services/pageScraper.example');
 
-exports.scrap = async (req, res) => {
+module.exports = async function (req, res) {
   const browserInstance = browserObject.startBrowser();
   let browser;
   const {
@@ -24,6 +24,9 @@ exports.scrap = async (req, res) => {
     browser.close();
   }
   catch(err){
+    res.status(422).send({
+      message: 'Invalid Selector'
+    });
     console.log("Could not resolve the browser instance => ", err);
   }
 }

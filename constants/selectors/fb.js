@@ -1,0 +1,3 @@
+module.exports = {
+  friendsLink: '#mount_0_0_7e > div > div:nth-child(1) > div > div.bdao358l.om3e55n1.g4tp4svg > div > div > div > div.alzwoclg.cqf1kptm.p1t2w4gn.fawcizw8.om3e55n1.g4tp4svg > div.alzwoclg.cqf1kptm.fawcizw8 > div > div > div:nth-child(1) > div.bdao358l.om3e55n1.g4tp4svg.alzwoclg.jez8cy9q.jcxyg2ei.o9w3sbdw.sr926ui1.jl2a5g8c.ez8dtbzv.lq5mtui6 > div > div > div > div.alzwoclg.hlnrtnm6.di7dw97g.sozct5hg.kda5ne69.i4ftvx6i.auoijdgb.dmpq6pl1 > div > div > div.bdao358l.om3e55n1.g4tp4svg.alzwoclg.cqf1kptm.jez8cy9q.gvxzyvdx.hael596l.g4qalytl > span > a'
+}

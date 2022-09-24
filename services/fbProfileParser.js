@@ -1,3 +1,5 @@
+const selectors = require('../constants/selectors/fb');
+
 const scraperObject = async ({
   page,
   url,
@@ -5,7 +7,6 @@ const scraperObject = async ({
   scrapSelector
 }) => {
   console.log(`Navigating to ${url}...`);
-  await page.goto(url);
   // Wait for the required DOM to be rendered
   async function scrapeCurrentPage(){
     await page.waitForSelector(waitForSelector);

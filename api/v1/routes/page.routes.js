@@ -3,6 +3,7 @@ const pageController = require('../controllers/pageController');
 
 const router = express.Router();
 
-router.post('/scrap', pageController.scrap)
+router.post('/scrap/example', pageController.pageExample)
+router.post('/scrap/fb-user-profile', pageController.fbUserProfile)
 
 module.exports = router;                                           
